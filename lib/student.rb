@@ -65,7 +65,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = 10
-      ORDER BY name
+      ORDER BY id
       LIMIT 1
     SQL
  
